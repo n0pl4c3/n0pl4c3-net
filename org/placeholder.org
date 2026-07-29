@@ -1,0 +1,7 @@
+#+title: Placeholder
+#+date: 2026-07-29
+#+hugo_base_dir: ../
+#+hugo_section: posts
+
+Testing =org-mode= to hugo exporting.
+And a second line.

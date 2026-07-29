@@ -1,0 +1,4 @@
+baseURL = "https://n0pl4c3.net/"
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "PaperMod"
