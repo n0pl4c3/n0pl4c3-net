@@ -4,4 +4,11 @@ author = ["n0pl4c3"]
 draft = true
 +++
 
-Test
+I am n0pl4c3. I study Computer Science, and work somewhere in the intersection between Cryptographic Engineering and Embedded Systems. Beyond this, I have strong feelings on free software and computing in general, which I write down here, fully expecting nobody to ever read any of it. At best, it might serve to remind me of stupid thoughts I had at one point years down the line.
+
+I believe that to learn and understand is the most valuable activity in human life, as such many of my writings are focused on projects I work on, or things I am teaching myself. Be it computing related, such as my attempts at hardware design, mathematics, or my journey of learning the Japanese language. What can definitely be expected, is commentary on the horrid direction modern technology and the regulation and centralization of it have been taking for years at this point.
+
+For any remarks, questions, or just to tell me how terrible my takes are, you can reach me at [mail@n0pl4c3.net](mailto:mail@n0pl4c3.net).
+Similarly, you can find some of the projects I work on at [GitHub](https://github.com/n0pl4c3), albeit I might eventually move to a different platform if things keep going downhill there.
+
+All Posts on this Websites were created in [GNU Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html) using [OrgMode](https://orgmode.org/) and exported for [Hugo](https://gohugo.io/) using [ox-hugo](https://ox-hugo.scripter.co/).
