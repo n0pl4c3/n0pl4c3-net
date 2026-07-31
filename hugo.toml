@@ -4,7 +4,6 @@ title = 'n0pl4c3'
 theme = "PaperMod"
 description = "Personal ramblings on cryptography, computing, and other stuff."
 
-# Theme Configuration
 [params]
   author = "n0pl4c3"
 
@@ -21,15 +20,11 @@ description = "Personal ramblings on cryptography, computing, and other stuff."
   
   ShowShareButtons = false
 
-  # Favicon configuration
   favicon = "/favicon.ico"
   favicon16x16 = "/favicon-16x16.png"
   favicon32x32 = "/favicon-32x32.png"
   appleTouchIcon = "/apple-touch-icon.png"
 
-  # --------------------------------------------------------
-  # Homepage: Profile Mode
-  # --------------------------------------------------------
   [params.profileMode]
     enabled = true
     title = "about"
@@ -72,11 +67,7 @@ description = "Personal ramblings on cryptography, computing, and other stuff."
     url = "/tags/"
     weight = 20
 
- 
 
-# --------------------------------------------------------
-# Markdown & Syntax Highlighting
-# --------------------------------------------------------
 [markup]
   [markup.highlight]
     style = "aura-theme-dark"
