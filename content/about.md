@@ -1,7 +1,7 @@
 +++
 title = "About"
 author = ["n0pl4c3"]
-draft = true
+draft = false
 +++
 
 I am n0pl4c3. I study Computer Science, and work somewhere in the intersection between Cryptographic Engineering and Embedded Systems. Beyond this, I have strong feelings on free software and computing in general, which I write down here, fully expecting nobody to ever read any of it. At best, it might serve to remind me of stupid thoughts I had at one point years down the line.
