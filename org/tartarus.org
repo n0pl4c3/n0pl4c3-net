@@ -1,6 +1,6 @@
 #+title: Project Tartarus: DOOM on RISC-V
 #+date: 2026-07-31
-#+hugo_draft: true
+#+hugo_draft: false
 #+hugo_base_dir: ../
 #+hugo_section: posts
 #+filetags: riscv:fpga:hardware:embedded:verilog

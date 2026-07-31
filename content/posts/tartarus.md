@@ -3,7 +3,7 @@ title = "Project Tartarus: DOOM on RISC-V"
 author = ["n0pl4c3"]
 date = 2026-07-31
 tags = ["riscv", "fpga", "hardware", "embedded", "verilog"]
-draft = true
+draft = false
 +++
 
 **The most important question in computing: "But can it run DOOM?"**
