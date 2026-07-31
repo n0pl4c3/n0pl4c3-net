@@ -1,4 +1,86 @@
 baseURL = "https://n0pl4c3.net/"
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'n0pl4c3'
 theme = "PaperMod"
+description = "Personal ramblings on cryptography, computing, and other stuff."
+
+# Theme Configuration
+[params]
+  author = "n0pl4c3"
+
+  defaultTheme = "dark" 
+  disableThemeToggle = true
+  
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  comments = true
+  
+  ShowShareButtons = false
+
+  # Favicon configuration
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  appleTouchIcon = "/apple-touch-icon.png"
+
+  # --------------------------------------------------------
+  # Homepage: Profile Mode
+  # --------------------------------------------------------
+  [params.profileMode]
+    enabled = true
+    title = "about"
+
+    # Buttons that appear below the text
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "GitHub"
+      url = "https://github.com/n0pl4c3"
+
+    [[params.profileMode.buttons]]
+      name = "Page Source"
+      url = "https://github.com/n0pl4c3/n0pl4c3-net"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 15
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+ 
+
+# --------------------------------------------------------
+# Markdown & Syntax Highlighting
+# --------------------------------------------------------
+[markup]
+  [markup.highlight]
+    style = "aura-theme-dark"
+    lineNos = true 
+    lineNumbersInTable = false
+  [markup.goldmark.renderer]
+    unsafe = true

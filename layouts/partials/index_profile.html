@@ -1,0 +1,47 @@
+<div class="profile">
+    <div class="inner">
+        <h1>{{ .Site.Params.profileMode.title }}</h1>
+        
+        <!-- Hardcoded ASCII Fetch Screen -->
+        <div class="profile-subtitle">
+            <div class="ascii-fetch">
+                <pre class="copland-logo">
+                  .=.
+                  '='
+                  ___
+       .**.   .*MWWWWWM*.   .**.
+     .MWv"' *MWW'"""""'WWM* '"vWM.
+   .MW"´  .WW.´         `.WW.  `"WM.
+ .MW"     MW/   .*MWM*.   \WM     "MW.
+ MW:     .WW    MWWWWWM    WW.     :WM
+ WW*     'WM    WWWWWWW    MW'     *MW
+  "WM.    WW\   "*WWW*"   /WW    .MW"
+    ':W*. 'WWM.         .MWW' .*W:'
+  .=. `"WW `*WWWv.   .vWWW*´ WW"´ .=.
+  '='        `"*WW   WW*"´        '='
+                WW   WW
+                WW   WW     
+        oM.    ,WW   WW.    .Mo
+        `*WM*-*WW'   'WW*-*MW*´
+           `"-"´       `"-"´   
+                </pre>
+                <div class="fetch-data">
+                    <p><span>OS:</span> Copland OS Enterprise v1.0</p>
+                    <p><span>Topic:</span> Cryptography, Computing, Ramblings, ...</p>
+                    <p><span>Author:</span> n0pl4c3</p>
+                    <p><span>License:</span> AGPLv3</p>
+                    <p><span>Status:</span> Connected to The Wired.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rebuild the buttons -->
+        <div class="buttons">
+            {{- range .Site.Params.profileMode.buttons }}
+            <a class="button" href="{{ .url | safeURL }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">{{ .name }}</span>
+            </a>
+            {{- end }}
+        </div>
+    </div>
+</div>

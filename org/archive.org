@@ -1,0 +1,7 @@
+#+title: Archive
+#+hugo_base_dir: ../
+#+hugo_section: /
+#+export_file_name: archive
+#+hugo_custom_front_matter: :layout archives :summary "archives"
+
+#+hugo_draft: false

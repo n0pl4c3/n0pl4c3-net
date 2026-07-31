@@ -1,0 +1,7 @@
+#+title: About
+#+hugo_base_dir: ../
+#+hugo_section: /
+#+export_file_name: about
+#+hugo_draft: true
+
+Test
